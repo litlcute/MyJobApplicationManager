@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #555;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.slogan {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.sub-slogan {
+  position: absolute;
+  top: 50%;  /* 调整这个值可以更改文本的垂直位置 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: #555555;
+  text-align: center;
+  z-index: 1;
+}
+
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.btn-login, .btn-register {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover, .btn-register:hover {
+  background-color: #555;
+}
